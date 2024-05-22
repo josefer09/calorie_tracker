@@ -38,7 +38,7 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/josefer09/calorie_tracker.git
     cd your-repository
     ```
 
