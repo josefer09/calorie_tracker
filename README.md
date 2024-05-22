@@ -1,30 +1,58 @@
 # React + TypeScript + Vite
+<img width="75px" src="https://github.com/Pedro-Murilo/icons-for-readme/blob/main/.github/typescript-icon.svg" alt="Typescript Icon" /> <img width="75px" src="https://github.com/Pedro-Murilo/icons-for-readme/blob/main/.github/react-icon.svg" alt="ReactJS Icon" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+This project is a frontend application built using React and TypeScript, bundled with Vite. The goal of this project is to practice and learn about react.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Project Demo](https://harmonious-mochi-831d67.netlify.app/)
 
-## Expanding the ESLint configuration
+## What I Learned
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+In this project, I learned how to:
 
-- Configure the top-level `parserOptions` property like this:
+- Use `useReducer`
+- Set up the payload for the reducer
+- Establish different actions for the reducer
+- Practice with `localStorage`
+- Work with components
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Features
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- ⚡️ **Vite**: Fast and lightweight build tool.
+- ⚛️ **React**: JavaScript library for building user interfaces.
+- 📦 **TypeScript**: Superset of JavaScript that adds static typing.
+- 🎨 **TailwindCSS**: Encapsulated styling by component.
+
+
+## Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+## Installation
+
+Follow these steps to set up the project locally:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    cd your-repository
+    ```
+
+2. Install the dependencies:
+    ```bash
+    npm install
+    # or if you use yarn
+    yarn install
+    ```
+
+## Usage
+
+To start the development server, run:
+```bash
+npm run dev
+# or if you use yarn
+yarn dev
